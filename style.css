@@ -121,26 +121,3 @@
 .work-item:hover .overlay{
     opacity: 0;
 }
-
-.cats {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.cat-item{
-    position: relative;
-    flex-shrink: 0;
-    flex-basis: 33.333%;
-    padding: 1px;
-    box-sizing: border-box;
-    line-height: 0;
-    overflow: hidden;
-}
-
-.cat-item img{
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    filter: blur(5px);
-}
