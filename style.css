@@ -1,0 +1,146 @@
+.body{
+    font-family: sans-serif;
+    color: #000;
+}
+
+.container{
+    width: 600px;
+    margin: 50px auto;
+}
+
+.photo img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.photo{
+    width: 140px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;;
+}
+
+.h1{
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+}
+
+.info{
+    letter-spacing: 2px;
+    line-height: 3;
+    margin-top: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 0 20px;
+}
+.h2{
+    text-align: center;
+    
+}
+.cat{
+    margin-top: 50px;
+    text-align: center
+    
+}
+.wow img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.wow{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    overflow: hidden;;
+}
+
+.top {
+    position: fixed;
+    right: 30px;  
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(75, 75, 75, 0.409);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.work-item{
+    position: relative;
+    flex-shrink: 0;
+    flex-basis: 33.333%;
+    padding: 1px;
+    box-sizing: border-box;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.work-item img{
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    filter: blur(5px);
+}
+
+.work-item:hover img{
+    filter: blur(0);
+    transform: scale(1.4);
+}
+
+.overlay{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    opacity: 1;
+}
+
+.work-item:hover .overlay{
+    opacity: 0;
+}
+
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.cat-item{
+    position: relative;
+    flex-shrink: 0;
+    flex-basis: 33.333%;
+    padding: 1px;
+    box-sizing: border-box;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.cat-item img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: blur(5px);
+}
